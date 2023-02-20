@@ -1,0 +1,45 @@
+.table {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+}
+
+.thText {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.tdText {
+  padding: 5px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .table {
+    width: 450px;
+  }
+  .thText {
+    padding: 8px;
+    font-size: 16px;
+  }
+  .tdText {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .table {
+    width: 550px;
+  }
+  .thText {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .tdText {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
